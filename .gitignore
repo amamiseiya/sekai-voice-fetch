@@ -131,3 +131,9 @@ dmypy.json
 # Program output
 logger/logs
 resource
+
+# f**king MACos trash
+.DS_Store
+
+.idea/
+.vscode/

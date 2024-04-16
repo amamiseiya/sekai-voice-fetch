@@ -60,13 +60,13 @@
 [DEFAULT]
 url = https://sekai.best/storyreader/eventStory/75/1
 interval = 10
-character = 5
+selected_characters = 5
 proxy = true 
 proxy_ip = 127.0.0.1
 proxy_port = 7890
 ```
 - 填写或修改你所要爬取的角色语音的story链接到url。
-- 修改角色id项目character，相应的角色id请自行到sekai.best的故事板的下载语音的文件名查看，如`voice_ev_wonder_03_01_02_14.mp3`是emu的语音，角色的id是14。 
+- 修改角色id项目selected_characters，相应的角色id请自行到sekai.best的故事板的下载语音的文件名查看，如`voice_ev_wonder_03_01_02_14.mp3`是emu的语音，角色的id是14。 
 - 如有需要，可以继续修改下载间隔interval(默认10秒)，请勿调整过小，极容易触发`503`。
 
 ### 运行
